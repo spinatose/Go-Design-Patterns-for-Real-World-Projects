@@ -1,4 +1,4 @@
-package creational
+package prototype
 
 import (
 	"errors"
