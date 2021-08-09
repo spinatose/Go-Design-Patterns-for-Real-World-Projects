@@ -1,4 +1,4 @@
-package creational
+package singleton
 
 type singleton struct {
 	count int

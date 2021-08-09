@@ -1,6 +1,8 @@
-package creational
+package singleton
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestGetInstance(t *testing.T) {
 	counter1 := GetInstance()
