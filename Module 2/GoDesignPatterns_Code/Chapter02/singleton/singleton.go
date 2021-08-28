@@ -2,13 +2,15 @@ package singleton
 
 type singleton struct {
 	count int
+	name  string
 }
 
 var instance *singleton
 
-func GetInstance() *singleton {
+func GetInstance(name string) *singleton {
 	if instance == nil {
 		instance = new(singleton)
+		instance.name = name 
 	}
 
 	return instance

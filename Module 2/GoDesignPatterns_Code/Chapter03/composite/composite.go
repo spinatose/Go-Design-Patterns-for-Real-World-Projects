@@ -1,4 +1,4 @@
-package composition
+package composite
 
 type Athlete struct{}
 
